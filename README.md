@@ -1,3 +1,12 @@
+
+```
+see editing
+for remote electrum servers
+electrum-doge.conf.sample:server = 45.56.96.128:50101:t
+lib/network.py:    '45.56.96.128':DEFAULT_PORTS,
+electrum-doge.conf.sample:server = 45.56.96.128:50101:t
+```
+
 Electrum-DOGE - lightweight Dogecoin client
 
 Licence: GNU GPL v3

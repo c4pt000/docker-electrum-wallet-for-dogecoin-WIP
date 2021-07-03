@@ -30,5 +30,6 @@
     <file>icons/qrcode.png</file>
     <file>icons/trustedcoin.png</file>
     <file>icons/dogebg.png</file>
+    <file>icons/my-doge-deposit.png</file>
   </qresource>
 </RCC>

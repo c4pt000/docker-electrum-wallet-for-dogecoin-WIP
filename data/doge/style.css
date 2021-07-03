@@ -13,8 +13,13 @@
   background-position: right bottom;
 }
 
-#main_window {
-  background: qlineargradient(x1: 0, y1: 0, x2:0,y2:1, stop: 0 white , stop: 1 #E8E8E8);
+
+
+#history_list_ {
+  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 white, stop: 1 #FAF2DB);
+  background-image: url(:/icons/my-doge-deposit.png);
+  background-repeat: no-repeat;
+  background-position: left center
 }
 
 MiniWindow QPushButton {

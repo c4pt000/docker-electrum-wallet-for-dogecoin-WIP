@@ -16,6 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
+
 import sys, time, datetime, re, threading
 from electrum_doge.i18n import _, set_language
 from electrum_doge.util import print_error, print_msg
@@ -29,6 +30,9 @@ import PyQt4
 from PyQt4.QtGui import *
 from PyQt4.QtCore import *
 import PyQt4.QtCore as QtCore
+
+from PyQt4.QtGui import QDesktopServices
+from PyQt4.QtCore import QUrl
 
 from electrum_doge.bitcoin import MIN_RELAY_TX_FEE, is_valid
 from electrum_doge.plugins import run_hook
@@ -374,12 +378,19 @@ class ElectrumWindow(QMainWindow):
         self.setMenuBar(menubar)
 
     def show_about(self):
-        QMessageBox.about(self, "Electrum-DOGE",
-            _("Version")+" %s" % (self.wallet.electrum_version) + "\n\n" + _("Electrum-DOGE's focus is speed, with low resource usage and simplifying Dogecoin. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Dogecoin system."))
-
+             w = QWidget()
+             label = QLabel(w)
+             pixmap = QPixmap(os.getcwd() + '/donate-about.png')
+             label.setPixmap(pixmap)
+             w.resize(pixmap.width(),pixmap.height())
+             w.show()
+	     QMessageBox.about(self, "Electrum-DOGE", _("Version")+ " %s" % (self.wallet.electrum_version))
+#	     QMessageBox.about(self, "Electrum-DOGE", _("Version")+ " %s" % (self.wallet.electrum_version) + "\n\n " + " %s" % _("if you found this port useful of electrum-doge") + "\n\n" + _("DMq9mjF2BpWA9EZhMcpMmi6voVXiBMJY9B") + "\n\n" + _("Electrum-DOGE's focus is speed, with low resource usage and simplifying Dogecoin. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Dogecoin system."))
     def show_report_bug(self):
         QMessageBox.information(self, "Electrum-DOGE - " + _("Reporting Bugs"),
-            _("Please report any bugs as issues on github:")+" <a href=\"https://github.com/electrumalt/electrum-doge/issues\">https://github.com/electrumalt/electrum-doge/issues</a>")
+            _("Please report any bugs as issues on github:"))
+#+ 
+#" <a href=\"https://github.com">https://github.com</a>")
 
 
     def notify_transactions(self):
@@ -1763,8 +1774,8 @@ class ElectrumWindow(QMainWindow):
         sb.addPermanentWidget( self.password_button )
 
         sb.addPermanentWidget( StatusBarButton( QIcon(":icons/preferences.png"), _("Preferences"), self.settings_dialog ) )
-        self.seed_button = StatusBarButton( QIcon(":icons/seed.png"), _("Seed"), self.show_seed_dialog )
-        sb.addPermanentWidget( self.seed_button )
+#        self.seed_button = StatusBarButton( QIcon(":icons/seed.png"), _("Seed"), self.show_seed_dialog )
+#        sb.addPermanentWidget( self.seed_button )
         self.status_button = StatusBarButton( QIcon(":icons/status_disconnected.png"), _("Network"), self.run_network_dialog )
         sb.addPermanentWidget( self.status_button )
 
@@ -1779,7 +1790,7 @@ class ElectrumWindow(QMainWindow):
 
 
     def update_buttons_on_seed(self):
-        self.seed_button.setVisible(self.wallet.has_seed())
+#        self.seed_button.setVisible(self.wallet.has_seed())
         self.password_button.setVisible(self.wallet.can_change_password())
         self.send_button.setText(_("Create unsigned transaction") if self.wallet.is_watching_only() else _("Send"))
 

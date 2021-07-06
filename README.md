@@ -1,5 +1,8 @@
 https://dogecoin.gg/files/dogecoin-bootstrap-2021-05-09.torrent
 
+to run:
+./electrum-doge
+
 native install
 ```
 python2 -m pip install ecdsa

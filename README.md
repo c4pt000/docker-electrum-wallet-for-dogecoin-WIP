@@ -5,6 +5,10 @@ https://dogecoin.gg/files/dogecoin-bootstrap-2021-05-09.torrent
 to run:
 ./electrum-doge
 
+![s1](https://raw.githubusercontent.com/c4pt000/docker-electrum-wallet-for-dogecoin-WIP/master/DOGE-wallet-main.png)
+![s1](https://raw.githubusercontent.com/c4pt000/docker-electrum-wallet-for-dogecoin-WIP/master/doge-wallet-recv.png)
+![s1](https://raw.githubusercontent.com/c4pt000/docker-electrum-wallet-for-dogecoin-WIP/master/doge-wallet-address.png)
+
 native install
 ```
 python2 -m pip install ecdsa

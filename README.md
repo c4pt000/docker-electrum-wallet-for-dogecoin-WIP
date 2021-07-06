@@ -66,11 +66,9 @@ yum install PyQt4-4.10.1-13*rpm
 DMq9mjF2BpWA9EZhMcpMmi6voVXiBMJY9B
 ```
 
-# WIP** electrumx_connect_doge_server
-# ignore previous about configuring c4pt/electrum-doge config as a rpc server
 
+https://github.com/c4pt000/electrumx-server-1.2.1
 
-https://github.com/c4pt000/electrumx-dogecoin-server
 
 # must only need electrumx_server to broadcast to dogecoin electrum client wallets from dogecoind synced blockchain
 

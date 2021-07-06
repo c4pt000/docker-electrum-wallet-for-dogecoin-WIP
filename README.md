@@ -9,6 +9,17 @@ to run:
 ![s1](https://raw.githubusercontent.com/c4pt000/docker-electrum-wallet-for-dogecoin-WIP/master/doge-wallet-recv.png)
 ![s1](https://raw.githubusercontent.com/c4pt000/docker-electrum-wallet-for-dogecoin-WIP/master/doge-wallet-address.png)
 
+
+# **WIP do not use
+
+for radiocoin
+https://github.com/c4pt000/electrum-wallet-radc
+
+![s1](https://raw.githubusercontent.com/c4pt000/electrumx-dogecoin-server-radiocoin/master/electrumx-radiocoin-wallet.png)
+![s1](https://raw.githubusercontent.com/c4pt000/electrumx-dogecoin-server-radiocoin/master/electrum-addr-electrum-radiocoin.png)
+![s1](https://raw.githubusercontent.com/c4pt000/electrumx-dogecoin-server-radiocoin/master/electrumx-radiocoin-still-not-working-100%25.png)
+![s1](https://raw.githubusercontent.com/c4pt000/electrumx-dogecoin-server-radiocoin/master/electrum-network.png)
+
 native install
 ```
 python2 -m pip install ecdsa

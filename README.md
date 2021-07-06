@@ -14,10 +14,13 @@ to run:
 for radiocoin
 https://github.com/c4pt000/electrum-wallet-radc
 
-![s1](https://raw.githubusercontent.com/c4pt000/electrumx-dogecoin-server-radiocoin/master/electrumx-radiocoin-wallet.png)
-![s1](https://raw.githubusercontent.com/c4pt000/electrumx-dogecoin-server-radiocoin/master/electrum-addr-electrum-radiocoin.png)
-![s1](https://raw.githubusercontent.com/c4pt000/electrumx-dogecoin-server-radiocoin/master/electrumx-radiocoin-still-not-working-100%25.png)
-![s1](https://raw.githubusercontent.com/c4pt000/electrumx-dogecoin-server-radiocoin/master/electrum-network.png)
+![s1](https://raw.githubusercontent.com/c4pt000/electrum-wallet-radc/main/electrum-addr-electrum-radiocoin.png)
+![s1](https://raw.githubusercontent.com/c4pt000/electrum-wallet-radc/main/electrum-console-about-connected.png)
+![s1](https://raw.githubusercontent.com/c4pt000/electrum-wallet-radc/main/electrum-network.png)
+![s1](https://raw.githubusercontent.com/c4pt000/electrum-wallet-radc/main/electrumx-radiocoin-wallet.png)
+![s1](https://raw.githubusercontent.com/c4pt000/electrum-wallet-radc/main/kind-of-working.png)
+![s1](https://raw.githubusercontent.com/c4pt000/electrum-wallet-radc/main/not-sending-but-receive.png)
+![s1](https://raw.githubusercontent.com/c4pt000/electrum-wallet-radc/main/sort-of-working-not-fully.png)
 
 native install
 ```

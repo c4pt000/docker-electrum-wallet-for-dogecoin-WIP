@@ -1,6 +1,6 @@
 https://dogecoin.gg/files/dogecoin-bootstrap-2021-05-09.torrent
 
-**WIP do not use
+# **WIP do not use
 
 to run:
 ./electrum-doge

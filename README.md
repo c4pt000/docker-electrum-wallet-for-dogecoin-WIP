@@ -10,7 +10,6 @@ to run:
 ![s1](https://raw.githubusercontent.com/c4pt000/docker-electrum-wallet-for-dogecoin-WIP/master/doge-wallet-address.png)
 
 
-# **WIP do not use
 
 for radiocoin
 https://github.com/c4pt000/electrum-wallet-radc

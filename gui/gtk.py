@@ -31,7 +31,7 @@ from electrum_doge import WalletStorage, Wallet
 Gdk.threads_init()
 APP_NAME = "Electrum-DOGE"
 import platform
-MONOSPACE_FONT = 'Lucida Console' if platform.system() == 'Windows' else 'monospace'
+MONOSPACE_FONT = 'Bangers Console' if platform.system() == 'Windows' else 'monospace'
 
 from electrum_doge.util import format_satoshis, parse_URI
 from electrum_doge.network import DEFAULT_SERVERS

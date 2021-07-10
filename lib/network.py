@@ -4,10 +4,11 @@ from bitcoin import *
 import interface
 from blockchain import Blockchain
 
-DEFAULT_PORTS = {'t':'50101', 's':'50102', 'h':'8181', 'g':'8182'}
+DEFAULT_PORTS = {'t':'50011', 's':'50022', 'h':'8181', 'g':'8182'}
 
 DEFAULT_SERVERS = {
-    '45.56.96.128':DEFAULT_PORTS,
+    'radioblockchain.info':DEFAULT_PORTS,
+    '172.105.240.205':DEFAULT_PORTS,
 }
 
 DISCONNECTED_RETRY_INTERVAL = 60

@@ -30,9 +30,9 @@ from electrum_doge_gui.qt.qrcodewidget import QRCodeWidget
 from electrum_doge.i18n import _
 
 if platform.system() == 'Windows':
-    MONOSPACE_FONT = 'Lucida Console'
+    MONOSPACE_FONT = 'Bangers Console'
 elif platform.system() == 'Darwin':
-    MONOSPACE_FONT = 'Monaco'
+    MONOSPACE_FONT = 'Bangers'
 else:
     MONOSPACE_FONT = 'monospace'
 
